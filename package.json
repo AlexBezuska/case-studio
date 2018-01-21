@@ -1,6 +1,6 @@
 {
   "name": "case-studio",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "An automated tool for designers to create case study pages to add to their site and effectively display their work.",
   "main": "case-studio.js",
   "scripts": {
