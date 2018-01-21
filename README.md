@@ -1,5 +1,5 @@
 # case-studio
-
+[![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)]()
 
 ## WARNING This is in the really early stages, not functional yet! Star this repo and check back soon for 1.0 update when it will be MVP
 
