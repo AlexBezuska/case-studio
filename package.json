@@ -1,0 +1,29 @@
+{
+  "name": "case-studio",
+  "version": "1.0.0",
+  "description": "An automated tool for designers to create case study pages to add to their site and effectively display their work.",
+  "main": "case-studio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBezuska/case-studio.git"
+  },
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexBezuska/case-studio/issues"
+  },
+  "homepage": "https://github.com/AlexBezuska/case-studio#readme",
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-less": "^3.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-util": "^3.0.8"
+  }
+}

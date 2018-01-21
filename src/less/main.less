@@ -1,3 +1,5 @@
+@import "_variables";
+
 body{
   margin: 0;
   padding: 0;
@@ -16,10 +18,10 @@ body{
 }
 
 .cs-container p{
-    font-size: 20px;
-    line-height: 1.33;
-    color: #707070;
-    font-weight: 300;
+  font-size: 20px;
+  line-height: 1.33;
+  color: @med-grey;
+  font-weight: 300;
 }
 
 .cs-component{
@@ -56,7 +58,7 @@ body{
 }
 
 @media (max-width: 750px){
-.cs-row{
+  .cs-row{
     flex-direction: column;
   }
 }
@@ -88,10 +90,10 @@ body{
 .cs-module h5{
   color: #acacac;
 
-    letter-spacing: .1em;
-    text-align: center;
-    text-transform: uppercase;
-  }
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 .cs-subtitle{
   margin: 5px 0 0 0;
@@ -149,12 +151,12 @@ body{
 
 
 .cs-single .cs-module{
-  	display: flex;
+  display: flex;
   justify-content: space-between;
 }
 
 .cs-two-across .cs-module{
-  	display: flex;
+  display: flex;
   justify-content: space-between;
 }
 .cs-two-across .cs-item{
@@ -163,7 +165,7 @@ body{
 }
 
 .cs-three-across .cs-module{
-  	display: flex;
+  display: flex;
   justify-content: space-between;
 }
 .cs-three-across .cs-item{
@@ -172,7 +174,7 @@ body{
 }
 
 .cs-four-across .cs-module{
-  	display: flex;
+  display: flex;
   justify-content:space-between;
 }
 .cs-four-across .cs-item{
@@ -226,7 +228,7 @@ body{
   margin: 30px 40px;
   text-align: center;
   border-radius: 50%;
-  background: #5e656d;
+  background: @med-grey;
   color: white;
   width: 125px;
   height: 125px;
