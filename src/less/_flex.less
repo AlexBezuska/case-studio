@@ -1,0 +1,67 @@
+.cs-flex-wrap{
+  flex-wrap: wrap;
+}
+
+.cs-justify-around{
+  justify-content: space-around;
+}
+
+.cs-justify-between{
+  justify-content: space-between;
+}
+
+
+.cs-flex{
+  display: flex;
+}
+
+.cs-flex:not(.cs-force-row){
+  @media (max-width: @mobile-width){
+    flex-direction: column;
+  }
+}
+
+.cs-justify-center{
+  justify-content: center;
+}
+
+.cs-align-items-center{
+  align-items: center;
+}
+
+
+.cs-flex-row{
+  flex-direction: row;
+  @media (max-width: @mobile-width){
+    flex-direction: column;
+  }
+}
+
+
+.cs-flex-row-rev{
+  flex-direction: row-reverse;
+  @media (max-width: @mobile-width){
+    flex-direction: column-reverse;
+  }
+}
+
+.cs-flex-col{
+  flex-direction: column;
+}
+
+.cs-flex-col-rev{
+  flex-direction: column-reverse;
+}
+
+
+.cs-grow-1{
+  flex: 1;
+}
+
+.cs-grow-2{
+  flex: 2;
+}
+
+.cs-grow-3{
+  flex: 3;
+}
