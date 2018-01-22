@@ -1,0 +1,10 @@
+{
+  "image-left": {
+    "url": "https://picsum.photos/1604/900?random",
+    "alt": "Lorem ipsum"
+  },
+  "image-right": {
+    "url": "https://picsum.photos/1603/900?random",
+    "alt": "Lorem ipsum"
+  }
+}
