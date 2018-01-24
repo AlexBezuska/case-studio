@@ -11,7 +11,7 @@ import React from 'react';
         <p>{text}</p>
       </div>
     </div>
-    <div class="cs-item"><img src="{imageUrl}" alt="{imageAlt}"/></div>
+    <div class="cs-item"><img src={imageUrl} alt={imageAlt}/></div>
   </div>
 </section>
 

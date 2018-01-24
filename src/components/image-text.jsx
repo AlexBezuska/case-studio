@@ -2,7 +2,7 @@ import React from 'react';
 
     export default function({textSubheading,text,imageUrl,imageAlt}){
       return (
-        
+
 <section class="cs-two-across">
   <div class="cs-flex cs-justify-between cs-flex-row-rev page-width">
     <div class="cs-item cs-flex cs-justify-center cs-align-center">
@@ -11,7 +11,7 @@ import React from 'react';
         <p>{text}</p>
       </div>
     </div>
-    <div class="cs-item"><img src="{imageUrl}" alt="{imageAlt}"/></div>
+    <div class="cs-item"><img src={imageUrl} alt={imageAlt}/></div>
   </div>
 </section>
 

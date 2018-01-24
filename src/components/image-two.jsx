@@ -5,8 +5,8 @@ import React from 'react';
 
 <section class="cs-two-across">
   <div class="cs-flex cs-justify-between page-width">
-    <div class="cs-item"><img src="{imageLeftUrl}" alt="{imageLeftAlt}"/></div>
-    <div class="cs-item"><img src="{imageRightUrl}" alt="{imageRightAlt}"/></div>
+    <div class="cs-item"><img src={imageLeftUrl} alt={imageLeftAlt}/></div>
+    <div class="cs-item"><img src={imageRightUrl} alt={imageRightAlt}/></div>
   </div>
 </section>
 
